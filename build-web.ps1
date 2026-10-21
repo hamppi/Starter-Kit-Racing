@@ -10,6 +10,7 @@ try {
     & $Godot --headless --path . --export-release Web web-build/index.html
     if ($LASTEXITCODE) { throw "Godot web export failed ($LASTEXITCODE)" }
     Copy-Item hub-web.json web-build/hub.json
+    Copy-Item screenshots/screenshot.png web-build/hub-cover.png
     Compress-Archive -Path web-build/* -DestinationPath game-build.zip -Force
     Write-Host "Built web-build/index.html and game-build.zip"
 } finally { Pop-Location }
