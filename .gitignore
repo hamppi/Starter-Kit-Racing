@@ -1,5 +1,10 @@
 # Godot 4+ specific ignores
 .godot/
+.web-dependencies.json
+web-size-report.json
+.web-build-candidate/
+.candidate-game-build.zip
+.candidate-web-size-report.json
 web-build/
 game-build.zip
 qa-artifacts/

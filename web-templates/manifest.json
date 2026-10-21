@@ -1,0 +1,25 @@
+{
+  "godot_version": "4.7.2",
+  "upstream_tag": "4.7.2-stable",
+  "upstream_commit": "ed1daf0bf0",
+  "engine_fork": "https://github.com/hamppi/godot",
+  "engine_fixes": "7c24395199",
+  "emscripten": "6.0.10",
+  "flags": {
+    "platform": "web",
+    "target": "template_release",
+    "threads": false,
+    "dlink_enabled": false,
+    "modules_enabled_by_default": false,
+    "optimize": "size_extra",
+    "lto": "full",
+    "debug_symbols": false,
+    "use_assertions": false,
+    "javascript_eval": false,
+    "use_closure_compiler": true
+  },
+  "profile_sha256": "65ef771a83a3e8d1c45cd47c43a55dddd6f71bdb8463b90a28919dd3ac3d4470",
+  "template_sha256": "3aed88d966d40482fe1f848a74b2b85422b7249fa5fc3b09401deeed94aedf29",
+  "wasm_sha256": "129cf1ac2bbedcc0e67fa2c965457865b56ce274e42ee23dbbbaddcb15cf490d",
+  "wasm_bytes": 16130863
+}
