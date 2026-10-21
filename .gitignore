@@ -7,6 +7,8 @@ web-size-report.json
 .candidate-web-size-report.json
 web-build/
 game-build.zip
+upload/
+.upload-game-build.zip.tmp
 qa-artifacts/
 .nomedia
 

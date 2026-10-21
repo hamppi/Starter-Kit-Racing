@@ -18,6 +18,6 @@ try {
     Copy-Item screenshots/screenshot.png web-build/hub-cover.png
     & python tools/web-size/package_web.py .
     if ($LASTEXITCODE) { throw "Web packaging failed ($LASTEXITCODE)" }
-    Write-Host "Built web-build/index.html and game-build.zip"
+    Write-Host "Upload upload/game-build.zip to the platform. web-build is only the local Game Hub preview."
 } finally { Pop-Location }
 
